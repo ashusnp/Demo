@@ -1,0 +1,19 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+git init
+git status
+git add . // git add filename
+git commit -m "msg" / for all added file ie in 
+or
+git commit filename -m "msg"
+
+git pull origin branchname
+
+git push origin branchname
+
+git stash
+git stash list 
+
+git stash apply //to unstash the changes
+git stash apply stash@{2} //for specific change to unstash
